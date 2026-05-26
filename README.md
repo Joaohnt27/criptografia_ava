@@ -1,33 +1,33 @@
 # Criptografia AVA
 
 Trabalho do AVA - Tarefa 1 da Unidade 4, desenvolvido para a disciplina de
-Seguranca da Informacao.
+Segurança da Informação.
 
-## Descricao
+## Descrição
 
 Este projeto implementa um programa em linguagem C para criptografar e
-descriptografar textos usando a Cifra de Cesar.
+descriptografar textos usando a Cifra de César.
 
-A cifra utiliza um deslocamento fixo de 3 posicoes no alfabeto. Letras
-minusculas e maiusculas sao processadas, enquanto espacos, numeros, acentos e
-outros simbolos permanecem inalterados.
+A cifra utiliza um deslocamento fixo de 3 posicões no alfabeto. Letras
+minúsculas e maiúsculas são processadas, enquanto espaços, números, acentos e
+outros spimbolos permanecem inalterados.
 
 ## Funcionalidades
 
-- Ler o conteudo de um arquivo de texto.
-- Criptografar o texto lido com a Cifra de Cesar.
+- Ler o conteúdo de um arquivo de texto.
+- Criptografar o texto lido com a Cifra de César.
 - Descriptografar o texto criptografado.
 - Salvar o resultado em um novo arquivo.
 - Menu interativo no terminal.
 
 ## Arquivos do projeto
 
-- `main.c`: codigo-fonte principal do programa.
+- `main.c`: código-fonte principal do programa.
 - `teste.txt`: arquivo de exemplo para teste de leitura.
 
 ## Requisitos
 
-Para compilar e executar o projeto, e necessario ter um compilador C instalado,
+Para compilar e executar o projeto, e necessário ter um compilador C instalado,
 como GCC.
 
 ## Como compilar
@@ -38,7 +38,7 @@ No terminal, dentro da pasta do projeto, execute:
 gcc main.c -o criptografia
 ```
 
-No Windows, se preferir gerar um executavel com extensao `.exe`, use:
+No Windows, se preferir gerar um executavel com extensão `.exe`, use:
 
 ```bash
 gcc main.c -o criptografia.exe
@@ -60,7 +60,7 @@ No Windows:
 
 ## Como usar
 
-Ao executar o programa, sera exibido o seguinte menu:
+Ao executar o programa, será exibido o seguinte menu:
 
 ```text
 --- MENU CRIPTOGRAFIA ---
@@ -73,11 +73,11 @@ Ao executar o programa, sera exibido o seguinte menu:
 
 Fluxo recomendado:
 
-1. Escolha a opcao `1` para ler um arquivo de texto, como `teste.txt`.
-2. Escolha a opcao `2` para criptografar o conteudo.
-3. Escolha a opcao `3` se quiser descriptografar o texto.
-4. Escolha a opcao `4` para salvar o resultado em outro arquivo.
-5. Escolha a opcao `5` para encerrar o programa.
+1. Escolha a opção `1` para ler um arquivo de texto, como `teste.txt`.
+2. Escolha a opção `2` para criptografar o conteúdo.
+3. Escolha a opção `3` se quiser descriptografar o texto.
+4. Escolha a opção `4` para salvar o resultado em outro arquivo.
+5. Escolha a opção `5` para encerrar o programa.
 
 ## Exemplo
 
@@ -93,8 +93,8 @@ Apos criptografar com deslocamento 3:
 Rod pxqgr
 ```
 
-## Observacoes
+## Observações
 
 - O programa trabalha com textos de ate 5000 caracteres.
-- A chave da Cifra de Cesar esta definida no codigo pela constante `CHAVE`.
+- A chave da Cifra de César está definida no código pela constante `CHAVE`.
 - Para descriptografar, o programa aplica o deslocamento inverso da chave.
